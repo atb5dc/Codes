@@ -1,7 +1,6 @@
     program 2D_laplace
     !
-!****************************************************************************************
-!********************!
+!************************************************************************************************************!
 ! Author:: Ayodeji BodeOke
 ! Date:: 10 November 2015
 ! This code solve a 2D laplace equation with initial and boundary condition using point
@@ -14,9 +13,7 @@
 ! where 0<=x<=1, 0<=y<=1, T(0,y)=T(1,y)=0 , T(x,1)=sin(nx), dT/dy(x,0)=0
 ! Point Methods: Point Jacobi, Point Gauss Seidel
 ! Line Methods: Line Jacob SoR, Line Gauss Seidel SoR
-!
-****************************************************************************************
-********************!
+!************************************************************************************************************!
     implicit none
     INTEGER :: n_row, n_col
     INTEGER :: nx,ny
